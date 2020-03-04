@@ -11,7 +11,7 @@ import com.alisson.springboot.di.app.service.IServicio;
 @Controller
 public class IndexController {
 	@Autowired
-	@Qualifier("miServicioComplejo")
+	//@Qualifier("miServicioComplejo")
 	private IServicio servicio;
 	//MiServicio miservicio = new MiServicio();
 	@GetMapping({"/","","/index"})
